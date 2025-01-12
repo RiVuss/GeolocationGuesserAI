@@ -1,0 +1,9 @@
+Image Name,Analysis Result
+roi_0_0.jpeg,"[""Sky"", ""Road"", ""Soil"", ""Tree"", ""Vegetation"", ""Mountain"", ""Field""]"
+roi_1_0.jpeg,"[""Sky"", ""Tree"", ""Vegetation"", ""Bush""]
+"
+roi_2_0.jpeg,"[""Nothing""]
+"
+roi_2_1.jpeg,"[""Vehicle"", ""Car""]
+"
+roi_2_2.jpeg,"[""Sky"", ""Building"", ""House"", ""Tree"", ""Vegetation"", ""Vehicle"", ""Bus"", ""People"", ""Person""]"

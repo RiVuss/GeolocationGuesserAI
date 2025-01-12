@@ -6,3 +6,4 @@ Streetview_Image_Dataset
 *.pth
 grad-cam
 api_key.txt
+augmented_output
