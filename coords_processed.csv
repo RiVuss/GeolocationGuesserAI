@@ -403,7 +403,15 @@ latitude,longitude,image_name,country_code,country,continent,alpha-2,sub-region
 54.90389663,24.39116714,401.png,LT,Lithuania,Europe,LT,Northern Europe
 -5.022601496,-44.99326398,402.png,BR,Brazil,South America,BR,Latin America and the Caribbean
 -20.63393527,22.32271408,403.png,BW,Botswana,Africa,BW,Sub-Saharan Africa
-22.59263162,120.6800671,404.png,TW,"Taiwan, Province of China",Asia,TW,
+22.59263162,120.6800671,404.png,TW,"Taiwan, Province of China",Asia,TW,"Eastern Asia
+Eastern Asia
+Eastern Asia
+Eastern Asia
+Eastern Asia
+Eastern Asia
+Eastern Asia
+Eastern Asia
+"
 61.6506732,74.36773634,405.png,RU,Russian Federation,Europe,RU,Eastern Europe
 -34.5190866,142.8731176,406.png,AU,Australia,Oceania,AU,Australia and New Zealand
 67.48385986,27.89402311,407.png,FI,Finland,Europe,FI,Northern Europe
@@ -2311,7 +2319,8 @@ latitude,longitude,image_name,country_code,country,continent,alpha-2,sub-region
 -35.79082908,143.6477167,2309.png,AU,Australia,Oceania,AU,Australia and New Zealand
 -35.06709167,-64.55129366,2310.png,AR,Argentina,South America,AR,Latin America and the Caribbean
 -7.802994299,-39.9716202,2311.png,BR,Brazil,South America,BR,Latin America and the Caribbean
-24.18054421,121.3226365,2312.png,TW,"Taiwan, Province of China",Asia,TW,
+24.18054421,121.3226365,2312.png,TW,"Taiwan, Province of China",Asia,TW,"Eastern Asia
+"
 38.51122336,44.29093952,2313.png,TR,Turkey,Asia,TR,Western Asia
 28.47102393,77.21215195,2314.png,IN,India,Asia,IN,Southern Asia
 20.19793305,82.21320137,2315.png,IN,India,Asia,IN,Southern Asia
@@ -4238,7 +4247,7 @@ latitude,longitude,image_name,country_code,country,continent,alpha-2,sub-region
 2.524504094,-61.65729137,4236.png,BR,Brazil,South America,BR,Latin America and the Caribbean
 -20.24458132,138.9692339,4237.png,AU,Australia,Oceania,AU,Australia and New Zealand
 7.082483748,-70.75784876,4238.png,CO,Colombia,South America,CO,Latin America and the Caribbean
-23.78792109,120.3615599,4239.png,TW,"Taiwan, Province of China",Asia,TW,
+23.78792109,120.3615599,4239.png,TW,"Taiwan, Province of China",Asia,TW,Eastern Asia
 -25.04713966,-64.63872747,4240.png,AR,Argentina,South America,AR,Latin America and the Caribbean
 -32.32821667,148.5942871,4241.png,AU,Australia,Oceania,AU,Australia and New Zealand
 8.774328285,6.985805134,4242.png,NG,Nigeria,Africa,NG,Sub-Saharan Africa
@@ -6330,7 +6339,8 @@ latitude,longitude,image_name,country_code,country,continent,alpha-2,sub-region
 4.256339483,-74.88610051,6328.png,CO,Colombia,South America,CO,Latin America and the Caribbean
 63.95702581,25.59905881,6329.png,FI,Finland,Europe,FI,Northern Europe
 -29.29021684,28.97413684,6330.png,LS,Lesotho,Africa,LS,Sub-Saharan Africa
-23.85922826,120.8132317,6331.png,TW,"Taiwan, Province of China",Asia,TW,
+23.85922826,120.8132317,6331.png,TW,"Taiwan, Province of China",Asia,TW,"Eastern Asia
+"
 52.28618688,32.27922917,6332.png,RU,Russian Federation,Europe,RU,Eastern Europe
 -13.16573366,-57.99403014,6333.png,BR,Brazil,South America,BR,Latin America and the Caribbean
 50.45837359,17.40387414,6334.png,PL,Poland,Europe,PL,Eastern Europe
@@ -10311,12 +10321,12 @@ latitude,longitude,image_name,country_code,country,continent,alpha-2,sub-region
 69.06108,16.81091,10309.png,NO,Norway,Europe,NO,Northern Europe
 68.79833,16.54165,10310.png,NO,Norway,Europe,NO,Northern Europe
 68.94564,16.65815,10311.png,NO,Norway,Europe,NO,Northern Europe
-23.5654,119.58627,10312.png,TW,"Taiwan, Province of China",Asia,TW,
-23.26173,119.67767,10313.png,TW,"Taiwan, Province of China",Asia,TW,
-23.67475,119.57923,10314.png,TW,"Taiwan, Province of China",Asia,TW,
-23.19404,119.42256,10315.png,TW,"Taiwan, Province of China",Asia,TW,
-23.37357,119.5069,10316.png,TW,"Taiwan, Province of China",Asia,TW,
-42.2988,21.35924,10317.png,XK,,Europe,,
+23.5654,119.58627,10312.png,TW,"Taiwan, Province of China",Asia,TW,Eastern Asia
+23.26173,119.67767,10313.png,TW,"Taiwan, Province of China",Asia,TW,Eastern Asia
+23.67475,119.57923,10314.png,TW,"Taiwan, Province of China",Asia,TW,Eastern Asia
+23.19404,119.42256,10315.png,TW,"Taiwan, Province of China",Asia,TW,Eastern Asia
+23.37357,119.5069,10316.png,TW,"Taiwan, Province of China",Asia,TW,Eastern Asia
+42.2988,21.35924,10317.png,XK,,Europe,,Southern Europe
 35.35809,139.91706,10318.png,JP,Japan,Asia,JP,Eastern Asia
 36.46951,139.46325,10319.png,JP,Japan,Asia,JP,Eastern Asia
 36.28601,139.38729,10320.png,JP,Japan,Asia,JP,Eastern Asia
