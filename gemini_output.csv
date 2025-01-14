@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿Image Name,Analysis Result
+Image Name,Analysis Result
 roi_0_0.jpeg,"[""Sky"", ""Road"", ""Soil"", ""Tree"", ""Vegetation"", ""Mountain"", ""Field"", ""Bush""]
 "
 roi_10006_0.jpeg,"[""House"", ""Building"", ""Car"", ""Vehicle"", ""Road"", ""Tree"", ""Vegetation"", ""Bush"", ""Sky"", ""Mountain"", ""Fence"", ""Person"", ""Soil""]
@@ -50848,4 +50847,3 @@ roi_998_0.jpeg,"[""Nothing""]
 roi_998_1.jpeg,"[""Soil""]"
 roi_998_2.jpeg,"[""Vegetation"", ""Soil"", ""Road"", ""Bush"", ""Mountain""]
 "
->>>>>>> 8bd889056d8aa7cfdc9ad6c9949a96d5bf856331
