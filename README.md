@@ -10,41 +10,55 @@ This project develops a convolutional neural network (CNN)-based deep learning m
 - **Model**: Pre-trained ResNet variants (ResNet18, ResNet50, ResNet101) fine-tuned for the task.
 - **Explainability**: Grad-CAM heatmaps highlight visual features driving predictions. Gemini 1.5 Flash to identify objects in the regions of interest.
 
-## 📊 Results
+### 📊 Results Summary
 - Best-performing model: **ResNet50**
-  - Train Accuracy: 50.25%
   - Test Accuracy: 47.56%
   - Top-3 Prediction Accuracy: 73.01%
 - Interpretability analysis revealed key visual features (e.g., vegetation, road signs, buildings).
 
-## 📈 Dataset Details
-1. **Images**: 640x640 pixels with geographic metadata.
-2. **Subregions Analyzed**:
-   - Southern Asia
-   - Western Asia
-   - Eastern Asia
-   - South-eastern Asia
-   - Australia and New Zealand
-   - Southern Europe
-   - Sub-Saharan Africa
-   - Western Europe
-   - Northern Europe
-   - Eastern Europe
-   - Northern America
-   - Latin America and the Caribbean
+
 
 ## 🔢 Methodology
-1. **Model Training**:
-   - ResNet18, ResNet50, and ResNet101 trained on original and augmented datasets.
-   - Experimented with frozen and unfrozen parameters.
-2. **Explainability**:
-   - Grad-CAM for heatmaps of influential regions.
-   - Analysis of specific objects using Gemini 1.5 Flash for ROI detection.
+1. **Data Augmentation**
+The classes in the dataset are imbalanced. To adress this, we also tried running the models with augmented data, flipping, skewing and changing the brightness of the images.
+  <p float="left">
+  <img src="https://github.com/RiVuss/GeolocationGuesserAI/blob/main/sample_augmented_images/11403.png" width="30%" />
+  <img src="https://github.com/RiVuss/GeolocationGuesserAI/blob/main/sample_augmented_images/augmented_0a4cf2e5_11403.png" width="30%" /> 
+  </p>
+  
+2. **Model Training**
+   - ResNet18, ResNet50, and ResNet101 models
+   - For each model:
+       - original dataset
+       - original dataset + augmented data
+       - original dataset + augmented data + no frozen parameters
+  
+3. **Explainability** 
+   - First, [Grad-CAM](https://arxiv.org/abs/1610.02391) was used to create heatmaps of influential regions in the test set predictions.
+   - Then a cut out portion of the region of interest was sent over to Gemini 1.5 Flash to return a list of objects identified in the dataset.
+   - The Gemini output for the example below: ["Sky", "Powerline", "Tree", "Building", "Pole", "Vegetation"]
+  
+<p float="left">
+  <img src="https://github.com/RiVuss/GeolocationGuesserAI/blob/main/sample_images/345.png" width="30%" />
+  <img src="https://github.com/RiVuss/GeolocationGuesserAI/blob/main/sample_images/gradcam_345.jpeg" width="30%" /> 
+  <img src="https://github.com/RiVuss/GeolocationGuesserAI/blob/main/sample_images/roi_345_0.jpeg" width="18%" />
+</p>
 
-## 🤓 Challenges
-1. **Dataset Imbalance**: Limited representation of certain regions.
-2. **Augmentation Impact**: Augmented data did not consistently improve performance.
-3. **Object Detection**: Reliance on general model (Gemini 1.5 Flash) could introduce bias.
+## 📊 Modelling Results
+<img src="https://github.com/RiVuss/GeolocationGuesserAI/blob/main/visualizations/modelAccuracies.png" width=70%>
+<img src="https://github.com/RiVuss/GeolocationGuesserAI/blob/main/visualizations/PredictionCorrectness.png" width=70%>
+<img src="https://github.com/RiVuss/GeolocationGuesserAI/blob/main/visualizations/results_table.png" width=70%>
+
+## 🔎 Explainable AI Results
+<img src="https://github.com/RiVuss/GeolocationGuesserAI/blob/main/visualizations/objects_detected.png" width=70%>
+<img src="https://github.com/RiVuss/GeolocationGuesserAI/blob/main/visualizations/top5bottom5.png" width=70%>
+
+
+## 📈 Dataset Details
+- **Images**: 640x640 pixels with geographic metadata.
+- 20k training set 5k test set
+- coordinated translated to sub-regions
+<img src="https://github.com/RiVuss/GeolocationGuesserAI/blob/main/visualizations/data_distribution.png" width=50%>
 
 ## ⚙️ Future Work
 - Using larger datasets and models
